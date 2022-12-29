@@ -11,6 +11,7 @@ if len(list_of_words) > 1:
     occurrence: {len(list_of_words)}\n''')
 else:
     print("Not found")
+
 count = 1
 for match in re.finditer(raw_s, string):
     span = match.span()
